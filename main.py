@@ -57,7 +57,7 @@ class Instagram:
         self.device_id = 'android-{}'.format(self.guid)
 
     #   Login to instagram (Sessionid)
-    def login(self, session):
+    def login(60506950176%3AIkfP7axdpFCeYF%3A9%3AAYfMWFQWkD_hlUFzS1boQEfqWMUj_oBV7ELzzyqW-w):
         self.session = requests.Session()
         self.sessionID = session
 
@@ -90,7 +90,7 @@ class Instagram:
             "Accept: */*",
             "Accept-Language: en-US",
             "User-Agent: Instagram 11.0.0 Android (18/4.3; 320dpi; 720x1280; Xiaomi; HM 1SW; armani; qcom; en_US)",
-            "Cookie: sessionid=" + self.sessionID
+            "Cookie: sessionid=" 60506950176%3AIkfP7axdpFCeYF%3A9%3AAYfMWFQWkD_hlUFzS1boQEfqWMUj_oBV7ELzzyqW-w
         ], "username=%s" % self.target)
         if not response:
             return False
